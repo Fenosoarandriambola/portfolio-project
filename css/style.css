@@ -101,6 +101,26 @@ border-radius: 5px;
     margin-left: 200px; 
 
 }
+.btn-secondary-wifi {
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: solid;
+    background-color: gray;
+    color: aliceblue;
+    margin-left: 200px;
+
+}
+.btn-secondary-delivery {
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: solid;
+    background-color: gray;
+    color: aliceblue;
+    margin-left: 200px;
+
+}
 .showdecription{
  font-size: var(--paragraph-font-size);
  text-align: justify;
@@ -130,6 +150,7 @@ border-radius: 5px;
         color: var(--third-color);
         text-align: center;
 }
+
 @media (max-width:960px){
 .showdecription{
    text-align: justify;
@@ -142,7 +163,8 @@ border-radius: 5px;
 }
 
 .btn-secondary-menu{
-    margin-left: 95px;
+    margin-left: 90px;
+    margin-top: 90px;
 }
 .hero h1 {
     font-size: 50px;
@@ -156,6 +178,19 @@ border-radius: 5px;
     font-size: 50px;
 
 }
+
+.btn-secondary-wifi {
+
+ margin-left: 110px;
+ margin-top: 30px;
+
+}
+.btn-secondary-delivery {
+margin-left: 110px;
+margin-top: 30px;
+}
+
+
 }
 
 .logostreety{
