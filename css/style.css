@@ -7,14 +7,17 @@
 --heading-font-family:'EB Garamond',
     serif;
  --default-font-family: 'Poppins',
-        sans-serif;
+        sans-serif; 
+ --paragraph-font-size: 17px;           
 
 }
 
 body{
 
     font-family: var(--default-font-family);
-    color:var(--third-color);
+    color:var(--secondary-color);
+    background-color: var(--branding-color);
+    
 }
 
 h1 h2 h3 h4 h5 h6 {
@@ -24,15 +27,19 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .hero{
-    background-color: #e797d8;
+    
     color:aliceblue;
     text-align: center;
-    padding: 160px 20px;
-   
+    padding-top: 160px;
+    padding-bottom: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;  
 }
 
 .hero h1 {
     font-size:70px;
+    margin-bottom: 5%;
         
       
 }
@@ -46,13 +53,15 @@ h1 h2 h3 h4 h5 h6 {
     font-size:90px ;
     font-family: 'Playfair Display',
             serif;
-     margin-top: 30px;       
+     margin-top: 30px;    
+      
         
 
 }
 .streety{
     border-radius: 5px;
     width: 100%;
+
 }
 .btn-secondary{
     border-radius: 50px;
@@ -60,4 +69,91 @@ h1 h2 h3 h4 h5 h6 {
     font-size: 30px;
     margin-top: 30px;
     padding: 20px;
+    margin-bottom: 10px;
+   
+}
+.btn-order{
+    margin-bottom: 5px;
+}
+.showcooking{
+    width: 102%;
+    border-radius: 5px;
+
+}
+.wifirestaurant{
+width: 90%;
+border-radius: 5px;
+}
+
+.deliveryfood{
+width: 90%;
+border-radius: 5px;
+}
+
+
+.btn-secondary-menu{
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: solid;
+    background-color: gray;
+    color: aliceblue;
+    margin-left: 200px; 
+
+}
+.showdecription{
+ font-size: var(--paragraph-font-size);
+ text-align: justify;
+    
+}
+.wifidecription{
+    font-size: var(--paragraph-font-size);
+}
+.deliverydecription{
+    font-size: var(--paragraph-font-size);
+}
+.titleshow{
+    font-size:40px ;
+    font-weight: bold;
+    color:var(--third-color) ;
+    text-align: center;
+}
+.titlewifi{
+    font-size: 40px;
+        font-weight: bold;
+        color: var(--third-color);
+        text-align: center;
+}
+.titledelivery{
+    font-size: 40px;
+        font-weight: bold;
+        color: var(--third-color);
+        text-align: center;
+}
+@media (max-width:960px){
+.showdecription{
+   text-align: justify;
+}
+.wifidecription {
+    text-align: justify;
+}
+.delverydecription {
+    text-align: justify;
+}
+
+.btn-secondary-menu{
+    margin-left: 95px;
+}
+.hero h1 {
+    font-size: 50px;
+
+}
+.hero h2 {
+    font-size: 50px;
+
+}
+.hero h3 {
+    font-size: 50px;
+
+}
 }
