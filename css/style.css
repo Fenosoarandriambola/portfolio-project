@@ -160,47 +160,7 @@ border-radius: 5px;
         text-align: center;
 }
 
-@media (max-width:960px){
-.showdecription{
-   text-align: justify;
-}
-.wifidecription {
-    text-align: justify;
-}
-.delverydecription {
-    text-align: justify;
-}
 
-.btn-secondary-menu{
-    margin-left: 90px;
-    margin-top: 90px;
-}
-.hero h1 {
-    font-size: 50px;
-
-}
-.hero h2 {
-    font-size: 50px;
-
-}
-.hero h3 {
-    font-size: 50px;
-
-}
-
-.btn-secondary-wifi {
-
- margin-left: 116px;
- margin-top: 30px;
-
-}
-.btn-secondary-delivery {
-margin-left: 110px;
-margin-top: 30px;
-}
-
-
-}
 
 .logostreety{
     max-width: 130px;
@@ -284,4 +244,77 @@ margin-top: 150px;
     margin-top: 150px;
     font-size: 25px;
     text-align: center;
+}
+
+@media (max-width:960px) {
+    .showdecription {
+        text-align: justify;
+    }
+
+    .wifidecription {
+        text-align: justify;
+    }
+
+    .delverydecription {
+        text-align: justify;
+    }
+
+    .btn-secondary-menu {
+        margin-left: 90px;
+        margin-top: 90px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+
+    }
+
+    .hero h2 {
+        font-size: 50px;
+
+    }
+
+    .hero h3 {
+        font-size: 50px;
+
+    }
+
+    .btn-secondary-wifi {
+
+        margin-left: 116px;
+        margin-top: 30px;
+
+    }
+
+    .btn-secondary-delivery {
+        margin-left: 110px;
+        margin-top: 30px;
+    }
+.streetymenu{
+width: 350px;
+}
+.saladestreety{
+width: 350px;
+        
+    }
+.crepeicecream{
+width: 350px;
+}
+.jusestreety{
+width: 350px;
+}
+.paninistreety{
+width: 350px;
+}
+.chikentreety{
+width: 350px;
+}
+.crepestreety{
+width: 350px;
+}
+.clientstreety{
+width: 350px;
+}
+
+
 }
