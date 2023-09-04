@@ -23,6 +23,7 @@ body{
 h1 h2 h3 h4 h5 h6 {
     color: aliceblue;
     font-family: var(--heading-font-family);
+    font-weight: bold;
           
 }
 
@@ -107,7 +108,10 @@ border-radius: 5px;
     border-style: solid;
     background-color: gray;
     color: aliceblue;
-    margin-right: 500px; 
+    margin-right: 150px; 
+    margin-left: 200px;
+    margin-top: 20px;
+   
 
 }
 .btn-secondary-wifi {
@@ -261,7 +265,8 @@ margin-top: 150px;
 
     .btn-secondary-menu {
         margin-left: 90px;
-        margin-top: 90px;
+        margin-right: 90px;
+        margin-top: 60px;
     }
 
     .hero h1 {
@@ -317,4 +322,13 @@ width: 300px;
 }
 
 
+
+}
+.contactus{
+    width: 900px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.content{
+    margin-top: 70px;
 }
