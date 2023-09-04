@@ -89,7 +89,16 @@ border-radius: 5px;
 width: 90%;
 border-radius: 5px;
 }
-
+.btn-secondary-contact{
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: solid;
+    background-color: gray;
+    color: aliceblue;
+    margin-left: 550px;
+    margin-bottom:40px ;
+}
 
 .btn-secondary-menu{
     border-radius: 50px;
@@ -98,7 +107,7 @@ border-radius: 5px;
     border-style: solid;
     background-color: gray;
     color: aliceblue;
-    margin-left: 200px; 
+    margin-right: 500px; 
 
 }
 .btn-secondary-wifi {
@@ -198,4 +207,45 @@ margin-top: 30px;
 }
 .navbar-grey{
     background-color: rgb(226, 200, 204);
+}
+
+.streetymenu{
+    width: 550px;
+    border-radius: 5px;
+}
+.saladestreety{
+    width: 550px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.crepestreety{
+    width: 550px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.crepeicecream{
+    width: 550px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.jusestreety{
+        width: 550px;
+         border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.paninistreety{
+        width: 550px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+}
+.chikentreety{
+    width: 550px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
 }
