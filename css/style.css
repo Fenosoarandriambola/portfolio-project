@@ -212,6 +212,7 @@ margin-top: 30px;
 .streetymenu{
     width: 550px;
     border-radius: 5px;
+    margin-top: 70px;
 }
 .saladestreety{
     width: 550px;
@@ -248,4 +249,39 @@ margin-top: 30px;
 p{
     text-align: center;
     font-size: 30px;
+}
+.logo{
+    width: 300px;
+    margin-left: 500px;
+}
+.clientstreety{
+    width: 550px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.desciptionstory{
+    margin-bottom: 20px;
+    
+}
+.Stories{
+    margin-top: 150px;
+    font-size: 25px;
+    text-align: center;
+}
+.clientstreety{
+    margin-top: 20px;
+}
+.Commitment{
+margin-top: 150px;
+    font-size: 25px;
+    text-align: center;
+}
+.tittle{
+    margin-bottom: 20px;
+}
+.Safety {
+    margin-top: 150px;
+    font-size: 25px;
+    text-align: center;
 }
