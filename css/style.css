@@ -9,26 +9,21 @@
  --default-font-family: 'Poppins',
         sans-serif; 
  --paragraph-font-size: 17px;           
-
 }
 
 body{
-
     font-family: var(--default-font-family);
     color:var(--secondary-color);
-    background-color: var(--branding-color);
-    
+    background-color: var(--branding-color);  
 }
 
 h1 h2 h3 h4 h5 h6 {
     color: aliceblue;
     font-family: var(--heading-font-family);
-    font-weight: bold;
-          
+    font-weight: bold;       
 }
 
-.hero{
-    
+.hero{  
     color:aliceblue;
     text-align: center;
     padding-top: 50px;
@@ -40,29 +35,21 @@ h1 h2 h3 h4 h5 h6 {
 
 .hero h1 {
     font-size:70px;
-    margin-bottom: 5%;
-        
-      
+    margin-bottom: 5%;        
 }
 .hero h2{
     font-size: 90px;
     margin-bottom: 40px;
-  
     font-weight: 500;
 }
 .hero h3{
     font-size:90px ;
-    font-family: 'Playfair Display',
-            serif;
-     margin-top: 30px;    
-      
-        
-
+    font-family: 'Playfair Display',serif;
+    margin-top: 30px;    
 }
 .streety{
     border-radius: 5px;
     width: 100%;
-
 }
 .btn-secondary{
     border-radius: 50px;
@@ -70,8 +57,7 @@ h1 h2 h3 h4 h5 h6 {
     font-size: 30px;
     margin-top: 30px;
     padding: 20px;
-    margin-bottom: 10px;
-   
+    margin-bottom: 10px;   
 }
 .btn-order{
     margin-bottom: 5px;
@@ -111,8 +97,6 @@ border-radius: 5px;
     margin-right: 150px; 
     margin-left: 200px;
     margin-top: 20px;
-   
-
 }
 .btn-secondary-wifi {
     border-radius: 50px;
@@ -163,8 +147,6 @@ border-radius: 5px;
         color: var(--third-color);
         text-align: center;
 }
-
-
 
 .logostreety{
     max-width: 130px;
@@ -271,24 +253,19 @@ margin-top: 150px;
 
     .hero h1 {
         font-size: 50px;
-
     }
 
     .hero h2 {
         font-size: 50px;
-
     }
 
     .hero h3 {
         font-size: 50px;
-
     }
 
     .btn-secondary-wifi {
-
         margin-left: 116px;
         margin-top: 30px;
-
     }
 
     .btn-secondary-delivery {
@@ -320,16 +297,8 @@ width: 350px;
 .clientstreety{
 width: 350px;
 }
-footer .social-links{
-    margin-right: 21px;
 
 }
-
-
-
-}
-
-
 
 .contactus{
     width: 900px;
@@ -342,7 +311,7 @@ footer .social-links{
 
 footer .social-links a{
 
-margin-left:50px;
+margin: 10px ;
 text-decoration: none;
 color: grey;
 background-color: aliceblue;
