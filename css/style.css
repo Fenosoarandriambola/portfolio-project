@@ -328,3 +328,6 @@ footer .social-links a:hover{
     color: var(----secondary-color);
     background-color: var(--third-color);
 }
+.project-code{
+    margin-bottom: 25px;
+}
