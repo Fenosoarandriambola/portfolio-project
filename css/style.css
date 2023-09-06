@@ -245,6 +245,11 @@ margin-top: 150px;
         text-align: justify;
     }
 
+    .btn-secondary-contact{
+        margin-left: 115px;
+        margin-bottom: 40px;
+    }
+
     .btn-secondary-menu {
         margin-left: 90px;
         margin-right: 90px;
